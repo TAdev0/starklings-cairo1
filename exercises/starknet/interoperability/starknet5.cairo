@@ -21,7 +21,6 @@ trait IContractA<TContractState> {
 
 #[starknet::contract]
 mod ContractA {
-    use traits::Into;
     use starknet::info::get_contract_address;
     use starknet::ContractAddress;
     use super::IContractBDispatcher;
